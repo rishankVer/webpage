@@ -356,8 +356,12 @@ input:focus{
     }
 
     .big-card1{
-        width : 83% !important;
-        margin-left: 18px;
+        width: calc(50% - 60px) !important;
+        margin-left: 30px;
+    }
+    .big-card2{
+        width: calc(50% - 70px) !important;
+        margin-left: 0px !important;
     }
   
   }
