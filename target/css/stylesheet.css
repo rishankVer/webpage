@@ -102,15 +102,15 @@ main {
   height: 60px;
   padding-left: 10px;
   background: #FFFFFF;
-  border: 1px solid #1770F9;
+  border: 1px solid grey;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
   margin-top: 20px;
-  font-size: 18px; }
+  font-size: 14px; }
 
 input:focus {
-  border: 1px solid #1770F9;
+  border: 1px solid #1770F9 !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px !important; }
@@ -123,12 +123,15 @@ input:focus {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 8px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  letter-spacing: 5px;
+  font-size: 16px;
+  text-transform: uppercase; }
 
 .checkbox-design {
   background: #FFFFFF;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border: 10px solid #FFFFFF;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -141,7 +144,7 @@ input:focus {
   line-height: 26px;
   color: #292929;
   margin-top: 25px;
-  margin-left: 27px; }
+  margin-left: 30px; }
 
 .vertical-block-1 {
   width: 100%;
@@ -334,7 +337,7 @@ input:focus {
     margin-top: 20px;
     padding-bottom: 20px; }
   .input-box {
-    width: 90%; }
+    width: 100%; }
   .cards {
     width: calc(100% - 14px);
     padding-left: 0px;
