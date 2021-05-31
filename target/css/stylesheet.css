@@ -236,7 +236,7 @@ input:focus {
     margin-top: 20px;
     padding-bottom: 20px; }
   .input-box {
-    width: 90%; }
+    width: 100%; }
   .cards {
     width: calc(48% - 20px);
     padding-left: 0px;
@@ -287,7 +287,7 @@ input:focus {
     margin-top: 20px;
     padding-bottom: 20px; }
   .input-box {
-    width: 90%; }
+    width: 100%; }
   .cards {
     width: calc(50% - 20px);
     padding-left: 0px;
@@ -476,3 +476,11 @@ footer {
   line-height: 30px;
   color: #292929;
   margin-top: 15px; }
+
+.input_div {
+  position: relative; }
+
+.input-img {
+  position: absolute;
+  right: 15px;
+  top: 40px; }
