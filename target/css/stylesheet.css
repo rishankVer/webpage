@@ -223,12 +223,9 @@ input:focus {
   body {
     background-color: lightblue; }
   .card-text-header {
-    margin-top: 15px;
-    margin-left: 10px;
     font-size: 26px !important; }
   .card-text {
-    font-size: 25px;
-    margin-left: 0px; }
+    font-size: 25px; }
   .header-logo {
     margin-left: 7px; }
   .form-container {
@@ -241,7 +238,8 @@ input:focus {
     margin-top: -70px; }
   .form-box {
     margin-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin-left: 24px; }
   .input-box {
     width: 100%; }
   .cards {
@@ -281,12 +279,9 @@ input:focus {
   body {
     background-color: lightblue; }
   .card-text-header {
-    margin-top: 15px;
-    margin-left: 10px;
     font-size: 26px !important; }
   .card-text {
-    font-size: 25px;
-    margin-left: 0px; }
+    font-size: 25px; }
   .header-logo {
     margin-left: 7px; }
   .form-container {
@@ -299,7 +294,8 @@ input:focus {
     margin-top: -70px; }
   .form-box {
     margin-top: 20px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    margin-left: 24px; }
   .input-box {
     width: 100%; }
   .cards {
@@ -379,7 +375,6 @@ input:focus {
     background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
     background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    height: 600px;
     padding: 10px 10px 10px 10px;
     float: left;
     margin-left: 16px !important;

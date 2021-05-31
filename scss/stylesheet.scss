@@ -244,13 +244,11 @@ input:focus{
       background-color: lightblue;
     }
     .card-text-header{
-        margin-top: 15px;
-        margin-left: 10px;
         font-size: 26px !important;
     }
     .card-text{
         font-size: 25px;
-        margin-left: 0px;
+       
     }
 
     .header-logo{
@@ -269,6 +267,7 @@ input:focus{
     .form-box{
         margin-top: 20px;
         padding-bottom: 20px;
+        margin-left: 24px;
     }
     .input-box{
         width: 100%;
@@ -325,13 +324,11 @@ input:focus{
       background-color: lightblue;
     }
     .card-text-header{
-        margin-top: 15px;
-        margin-left: 10px;
         font-size: 26px !important;
     }
     .card-text{
         font-size: 25px;
-        margin-left: 0px;
+        
     }
 
     .header-logo{
@@ -350,6 +347,7 @@ input:focus{
     .form-box{
         margin-top: 20px;
         padding-bottom: 20px;
+        margin-left: 24px;
     }
     .input-box{
         width: 100%;
@@ -461,7 +459,6 @@ input:focus{
     background: linear-gradient(
 180deg
 , #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    height: 600px;
     padding: 10px 10px 10px 10px;
     float: left;
     margin-left: 16px !important;
