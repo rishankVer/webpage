@@ -82,12 +82,12 @@ main{
 }
 
 .form-container{
-  width: 40%;
+  width: 44%;
   float: left;
 }
 
 .cards-container{
-    width: 60%;
+    width: 56%;
     float: left;  
 
 }
@@ -123,6 +123,7 @@ input:focus{
     border: 1px solid #1770F9 !important;
     box-sizing: border-box;
     border-radius: 8px !important;
+    outline: none;
 }
 
 .sumButton{
@@ -173,7 +174,7 @@ input:focus{
 }
 
 .cards{
-    margin-left: 155px;
+    margin-left: 90px;
     width: 270px;
     height: 277px;
     background: #FFFFFF;
@@ -409,9 +410,9 @@ input:focus{
         width: 100%;
     }
     .cards{
-        width: calc(100% - 14px);
+        width: calc(100% - 20px);
         padding-left: 0px;
-        margin-left: 8px;
+        margin-left: 10px;
     }
     .cards-2{
         width: calc(100% - 18px);
