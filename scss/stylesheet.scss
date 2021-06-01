@@ -126,6 +126,12 @@ input:focus{
     outline: none;
 }
 
+input:focus .input-img{
+    fill:blue;
+}
+
+
+
 .sumButton{
     width: 197px;
     height: 60px;
@@ -137,7 +143,13 @@ input:focus{
     letter-spacing: 5px;
     font-size: 16px;
     text-transform: uppercase;
+    cursor: alias;
 }
+
+.terms_condition{
+    cursor: alias;
+}
+
 
 .checkbox-design{
     background: #FFFFFF;
@@ -295,7 +307,7 @@ input:focus{
     }
 
     .big-card1{
-        width: calc(50% - 70px) !important;
+        width: calc(50% - 45px) !important;
     background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
     background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     background: linear-gradient(
@@ -306,7 +318,7 @@ input:focus{
     margin-left: 28px;
     }
     .big-card2{
-        width: calc(50% - 66px) !important;
+        width: calc(50% - 45px) !important;
         background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
         background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
         background: linear-gradient(
@@ -376,11 +388,11 @@ input:focus{
     }
 
     .big-card1{
-        width: calc(50% - 60px) !important;
+        width: calc(50% - 40px) !important;
         margin-left: 30px;
     }
     .big-card2{
-        width: calc(50% - 70px) !important;
+        width: calc(50% - 40px) !important;
         margin-left: 0px !important;
     }
   
@@ -448,12 +460,12 @@ input:focus{
         padding-left: 0px;
     }
     .big-card1{
-        width: calc(100% - 60px) !important;
+        width: calc(100% - 40px) !important;
         height: auto;
         margin-left: 14px;
     }
     .big-card2{
-        width: calc(98% - 60px) !important;
+        width: calc(100% - 40px) !important;
     background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
     background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     background: linear-gradient(
@@ -536,19 +548,21 @@ footer{
 }
 
 .big-card1{
-   width:  calc(50% - 60px);
+   width:  calc(50% - 55px);
    background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-   padding: 10px 10px 10px 10px;
+   padding: 25px 25px 25px 25px;
    float: left;
-   margin-right : 28px
+   margin-right : 28px;
+   box-sizing: border-box;
 }
 
 .big-card2{
-    width:  calc(50% - 60px);
+    width:  calc(50% - 55px);
     background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    padding: 10px 10px 10px 10px;
+    padding: 25px 25px 25px 25px;
     float: left;
-    margin-left : 30px
+    margin-left : 30px;
+    box-sizing: border-box;
  }
 
 .bgc-header{
