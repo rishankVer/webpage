@@ -82,12 +82,12 @@ main{
 }
 
 .form-container{
-  width: 44%;
+  width: 50%;
   float: left;
 }
 
 .cards-container{
-    width: 56%;
+    width: 50%;
     float: left;  
 
 }
@@ -97,7 +97,7 @@ main{
 }
 
 .text-message{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-size: 15px;
     line-height: 26px;
     color: #292929;
@@ -117,6 +117,7 @@ main{
     border-radius: 8px;
     margin-top: 20px;
     font-size: 14px;
+    letter-spacing: 0.11;
 }
 
 input:focus{
@@ -139,7 +140,7 @@ input:focus .input-img{
     border: 1px solid #1770F9;
     box-sizing: border-box;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: 28px;
     letter-spacing: 5px;
     font-size: 16px;
     text-transform: uppercase;
@@ -162,7 +163,7 @@ input:focus .input-img{
 }
 
 .text-message-2{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-size: 15px;
     line-height: 26px;
     color: #292929;
@@ -203,7 +204,7 @@ input:focus .input-img{
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
     border-radius: 8px;
     float: left;
-    margin-left: 16px; 
+    margin-left: 28px; 
 }
 
 .card-img{
@@ -218,7 +219,7 @@ input:focus .input-img{
     width: 100%;
     margin-left: 24px;
     margin-top: 26px;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-weight: 600;
     font-size: 18px;
     line-height: 26px;
@@ -227,7 +228,7 @@ input:focus .input-img{
 
 .card-text{
     float: left;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     padding: 10px 10px 10px 10px;
     font-weight: 300;
     font-size: 16px;
@@ -326,7 +327,7 @@ input:focus .input-img{
     , #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
         padding: 10px 10px 10px 10px;
         float: left;
-        margin-left: -12px !important;
+        margin-left: 0px !important;
     }
   
   }
@@ -506,7 +507,7 @@ footer{
     width: 100%;
     margin-top: 26px;
     float :left;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -516,7 +517,7 @@ footer{
 
 .part2{
     float :left;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -526,7 +527,7 @@ footer{
 .part4{
     float: right;
     margin-top: 5px;
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-style: normal;
     font-weight: 600;
     font-size: 10px;
@@ -548,25 +549,25 @@ footer{
 }
 
 .big-card1{
-   width:  calc(50% - 55px);
+   width:  calc(50% - 25px);
    background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
    padding: 25px 25px 25px 25px;
    float: left;
-   margin-right : 28px;
+   margin-right : 25px;
    box-sizing: border-box;
 }
 
 .big-card2{
-    width:  calc(50% - 55px);
+    width:  calc(50% - 25px);
     background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     padding: 25px 25px 25px 25px;
     float: left;
-    margin-left : 30px;
+    margin-left : 25px;
     box-sizing: border-box;
  }
 
 .bgc-header{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     width: 100%;
     font-weight: bold;
     font-size: 36px;
@@ -585,7 +586,7 @@ footer{
 }
 
 .bgc-details{
-    font-family: Source Sans Pro;
+    font-family: 'Source Sans Pro';
     font-size: 18px;
     line-height: 30px;
     color: #292929;
