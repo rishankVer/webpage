@@ -97,6 +97,11 @@ main {
 .form-box {
   margin-top: 342px; }
 
+.svg-img {
+  position: absolute;
+  top: 40px;
+  right: 15px; }
+
 .input-box {
   width: 100%;
   height: 60px;
@@ -117,8 +122,8 @@ input:focus {
   border-radius: 8px !important;
   outline: none; }
 
-input:focus .input-img {
-  fill: blue; }
+input:focus .svg {
+  fill: red; }
 
 .sumButton {
   width: 197px;
@@ -196,7 +201,7 @@ input:focus .input-img {
   float: left;
   width: 100%;
   margin-left: 24px;
-  margin-top: 26px;
+  margin-top: 15px;
   font-family: 'Source Sans Pro';
   font-weight: 600;
   font-size: 18px;
@@ -358,34 +363,34 @@ input:focus .input-img {
   .input-box {
     width: 100%; }
   .cards {
-    width: calc(100% - 20px);
+    width: calc(100% - 25px);
     padding-left: 0px;
     margin-left: 10px; }
   .cards-2 {
-    width: calc(100% - 18px);
+    width: calc(100% - 25px);
     margin-top: 24px;
     margin-left: 10px; }
   .vertical-block-1 {
-    width: 98%;
+    width: 100%;
     margin-left: 0px;
     padding-left: 0px; }
   .vertical-block-2 {
-    width: 98%;
+    width: 100%;
     margin-top: 20px;
     margin-left: 0px;
     padding-left: 0px; }
   .big-card1 {
-    width: calc(100% - 40px) !important;
+    width: calc(100% - 30px) !important;
     height: auto;
-    margin-left: 14px; }
+    margin-left: 15px; }
   .big-card2 {
-    width: calc(100% - 40px) !important;
+    width: calc(100% - 30px) !important;
     background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
     background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     padding: 10px 10px 10px 10px;
     float: left;
-    margin-left: 16px !important;
+    margin-left: 15px !important;
     margin-top: 90px; } }
 
 footer {
