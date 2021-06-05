@@ -41,13 +41,6 @@ table {
   border-spacing: 0; 
 }
 
-.clearfix {
-    overflow: auto; }
-  
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table; }
 
 header{
     background-color: #0D2450;
@@ -81,15 +74,50 @@ main{
     width: 100%;
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .form-container{
-  width: 50%;
-  float: left;
+    flex: 50%
+}
+.cards-container{
+    flex: 50%
+}
+.big-card{
+    flex: 50%
+}
+
+.big-cards-grid{
+   margin-top: 50px;
+   display: flex;
+   gap: 49px;
+}
+
+.cards-grid1{
+    padding-top: 80px;
+    flex: 50%;
+}
+
+.cards-grid2{
+    padding-top: 120px;
+    flex: 50%;
 }
 
 .cards-container{
-    width: 50%;
-    float: left;  
+    display:flex;
+    flex: 50%;
+    gap: 20px;
+}
 
+.cards-grid{
+    padding-top: 80px;
+    display: flex;
+    gap: 20px;
+}
+.cards{
+    flex: 100%
 }
 
 .bg-cards{
@@ -193,24 +221,19 @@ input:focus .svg{
 }
 
 .cards{
-    margin-left: 90px;
-    width: calc(40% - 10px);
     height: 277px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
     border-radius: 8px;
-    float: left;
+    margin-top : 37px;
 }
 
-.cards-2{
+.cards2{
     margin-top: 60px;
-    width: calc(40% - 10px);
     height: 277px;
     background: #FFFFFF;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.04);
-    border-radius: 8px;
-    float: left;
-    margin-left: 28px; 
+    border-radius: 8px; 
 }
 
 .card-img{
@@ -259,232 +282,51 @@ input:focus .svg{
 }
 
 @media only screen and (min-width : 600px) and (max-width: 900px) {
-    body {
-      background-color: lightblue;
-    }
-    .card-text-header{
-        font-size: 26px !important;
-    }
-    .card-text{
-        font-size: 25px;
-       
-    }
-
-    .header-logo{
-        margin-left: 7px;
-    }
-    .form-container{
-        width: 98%;
-        padding-left: 7px;
+    .form-box {
         margin-top: 10px;
+
     }
-    .cards-container{
-        width: 98%;
-        padding-left: 7px;
-        margin-top: -70px;
+    .cards-grid1{
+        padding-top: 0px;
     }
-    .form-box{
-        margin-top: 20px;
-        padding-bottom: 20px;
-        margin-left: 24px;
+    .cards-grid2{
+        padding-top: 0px;
     }
-    .input-box{
-        width: 100%;
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
     }
-    .cards{
-        width: calc(48% - 20px);
-        padding-left: 0px;
-        margin-left: 24px;
-    }
-    .cards-2{
-        width: calc(48% - 20px);
-        margin-top: 0%;
-       
-    }
-    .vertical-block-1{
-        width: 98%;
-        margin-left:0px;
-        padding-left: 0px;
-    }
-    .vertical-block-2 {
-        width: 98%;
-        margin-top: 20px;
-        margin-left:0px;
-        padding-left: 0px;
+    .big-cards-grid{
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
-    .big-card1{
-        width: calc(50% - 45px) !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
-    background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    background: linear-gradient(
-180deg
-, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    padding: 10px 10px 10px 10px;
-    float: left;
-    margin-left: 28px;
-    }
-    .big-card2{
-        width: calc(50% - 45px) !important;
-        background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
-        background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-        background: linear-gradient(
-    180deg
-    , #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-        padding: 10px 10px 10px 10px;
-        float: left;
-        margin-left: 0px !important;
-    }
-  
-  }
+}
 
   @media only screen and (min-width : 900px) and (max-width: 1200px) {
-    body {
-      background-color: lightblue;
-    }
-    .card-text-header{
-        font-size: 26px !important;
-    }
-    .card-text{
-        font-size: 25px;
-        
-    }
-
-    .header-logo{
-        margin-left: 7px;
-    }
-    .form-container{
-        padding-left: 20px;
-        padding-right:30px;
-        width: 98%;
-        padding-left: 7px;
-        margin-top: 10px;
-    }
-    .cards-container{
-        width: 98%;
-        padding-left: 7px;
-        margin-top: -70px;
-    }
-    .form-box{
-        margin-top: 20px;
-        padding-bottom: 20px;
-        margin-left: 24px;
-    }
-    .input-box{
-        width: 100%;
-    }
-    .cards{
-        width: calc(50% - 20px);
-        padding-left: 0px;
-        margin-left: 24px;
-    }
-    .cards-2{
-        width: calc(50% - 28px);
-        margin-top: 0;
-        margin-left: 24px;
-       
-    }
-    .vertical-block-1{
-        width: 98%;
-        margin-left:0px;
-        padding-left: 0px;
-    }
-    .vertical-block-2 {
-        width: 98%;
-        margin-top: 20px;
-        margin-left:0px;
-        padding-left: 0px;
-    }
-
-    .big-card1{
-        width: calc(50% - 40px) !important;
-        margin-left: 30px;
-    }
-    .big-card2{
-        width: calc(50% - 40px) !important;
-        margin-left: 0px !important;
-    }
+  
   
   }
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-
-    .big-card1{
-        width: 100%;
-    }
-
-
-    .header-logo{
-        margin-left: 7px;
-    }
-    .form-container{
-        width: 92%;
+    
+    .form-box {
         margin-top: 10px;
-        padding-left: 20px;
     }
-    .cards-container{
-        width: 98%;
-        padding-left: 4px;
-        margin-top: -70px;
+    .cards-grid1{
+        padding-top: 0px;
     }
-    .card-text-header{
-        margin-top: 15px;
-        margin-left: 10px;
-        font-size: 26px !important;
+    .cards-grid2{
+        padding-top: 0px;
     }
-    .card-text{
-        font-size: 25px;
-        margin-left: 0px;
+    .grid-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
     }
-
-    .form-box{
-        margin-top: 20px;
-        padding-bottom: 20px;
-    }
-    .input-box{
-        width: 100%;
-    }
-    .cards{
-        width: calc(100% - 25px);
-        padding-left: 0px;
-        margin-left: 10px;
-    }
-    .cards-2{
-        width: calc(100% - 25px);
-        margin-top: 24px;
-        margin-left: 10px;
-       
-    }
-    .vertical-block-1{
-        width: 100%;
-        margin-left:0px;
-        padding-left: 0px;
-    }
-    .vertical-block-2 {
-        width: 100%;
-        margin-top: 20px;
-        margin-left:0px;
-        padding-left: 0px;
-    }
-    .big-card1{
-        width: calc(100% - 30px) !important;
-        height: auto;
-        margin-left: 15px;
-    }
-    .big-card2{
-        width: calc(100% - 30px) !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
-    background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    background: linear-gradient(
-180deg
-, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-    padding: 10px 10px 10px 10px;
-    float: left;
-    margin-left: 15px !important;
-    margin-top: 90px;
+    .big-cards-grid{
+        flex-wrap: wrap;
     }
 
   }
@@ -493,12 +335,11 @@ footer{
     margin-top: 30px;
     height: 100px;
     background: #FFFDFD;
-    padding-left: 20px;
 }
 
 .footer-block{
     margin: 0 auto;
-    max-width: 1225px;
+    max-width: 1250px;
     width: 100%;
 }
 
