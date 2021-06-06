@@ -51,6 +51,7 @@ table {
 
 header{
     background-color: #0D2450;
+    width: 100%
 }
 footer{
     background-color: #FFFDFD;;
@@ -559,7 +560,7 @@ footer{
 }
 
 .big-card1{
-   width:  calc(50% - 25px);
+   width:  calc(49% - 25px);
    background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
    padding: 25px 25px 25px 25px;
    float: left;
@@ -568,7 +569,7 @@ footer{
 }
 
 .big-card2{
-    width:  calc(50% - 25px);
+    width:  calc(49% - 25px);
     background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
     padding: 25px 25px 25px 25px;
     float: left;
