@@ -49,7 +49,8 @@ table {
   display: table; }
 
 header {
-  background-color: #0D2450; }
+  background-color: #0D2450;
+  width: 100%; }
 
 footer {
   background-color: #FFFDFD; }
@@ -457,7 +458,7 @@ footer {
   border-radius: 10px; }
 
 .big-card1 {
-  width: calc(50% - 25px);
+  width: calc(49% - 25px);
   background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
   background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
   background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
@@ -468,7 +469,7 @@ footer {
           box-sizing: border-box; }
 
 .big-card2 {
-  width: calc(50% - 25px);
+  width: calc(49% - 25px);
   background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
   background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
   background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
