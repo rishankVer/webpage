@@ -55,9 +55,7 @@ footer {
   background-color: #FFFDFD; }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(#F4F5F9), to(rgba(244, 245, 249, 0)));
-  background: -o-linear-gradient(top, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
-  background: linear-gradient(180deg, #F4F5F9 0%, rgba(244, 245, 249, 0) 100%);
+  background: #d8f2f0;
   position: relative; }
 
 .header-content {
