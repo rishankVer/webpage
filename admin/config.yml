@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: master
-  repo: owner/repo
+  repo: rishankVer/webpage
 
 publish_mode: editorial_workflow
 media_folder: static/media
